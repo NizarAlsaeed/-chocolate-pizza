@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:wght@500&display=swap');
+@font-face {
+    font-family: 'Balboa';
+    src: url(./fonts/FontsFree-Net-Balboa-W01-Bold.ttf);
+  }
+  
+
+  :root{
+    --cblack: rgb(49, 47, 47);
+    --cgrey: rgb(116, 110, 110);
+    --lightgrey: rgb(160, 158, 158);
+  }
+
+body{
+    margin: 0 auto;
+    max-width: 900px;
+    color: rgb(39, 37, 37);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 100px;
+
+}
+nav img{
+    padding: 0;
+}
+nav h2{
+    font-family: 'Yellowtail', cursive;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+}
+nav p{
+    margin: 0%;
+    padding: 0;
+    font-size: 10px;
+    font-weight: 1px;
+}
+nav ul, nav li{
+    display: inline-block;
+    list-style: none;
+
+}
+
+ul div{
+    display: inline-block;
+    margin-left: 10px;
+}
+.upperText{
+    text-transform: uppercase;
+}
+
+h1{
+    font-family: 'Balboa';
+    letter-spacing: 1px;
+    font-size: 45px;
+    color: var(--cblack);
+    margin-bottom: 0;
+
+}
+.hContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hContainer div p{
+    display: inline;
+}
+.hContainer P{
+    margin: 0;
+    color: var(--lightgrey);
+    font-size: 12px;
+    font-family:  Geneva, Tahoma, sans-serif;
+}
+.hContainer{
+    margin-bottom: 20PX;
+}
+
+#checkList{
+    background-image: url(./images/list-bg.png);
+    height: 300px;
+    width: 800px;
+    margin: 45px;
+
+}
+
+
+
+article{
+    text-align: left;
+    color: var(--cgrey);
+    font-size: 20px;
+    
+}
+article p{
+    text-indent: 40px;
+    margin-bottom: 40px;
+}
+
+#author  {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    height: 100px;
+    align-items: center;
+}
+
+
+#author p{
+    max-width: 600px;
+    text-align: left;
+    color: var(--cgrey);
+    font-size: 20px;
+    margin-top: 5px;
+}
+#author button{
+    height: 50px;
+    width: 170px;
+    border: none;
+    color: honeydew;
+    background-color: rgba(173, 68, 42, 0.733);
+    text-align: center;
+    font-size:15px ;
+}
+#author h3{
+    font-size: 22px;
+    color: var(--cblack);
+   font-weight:normal; 
+   margin-bottom: 0;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    margin: 70px 0;
+    color: var(--lightgrey);
+}
+
+#checkList{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#checkList ul,li{
+    display: block;
+    list-style: circle;
+}
+
+#checkList ul{
+font-size: 20px;
+max-width: 300px;
+font-family: 'Truculenta', sans-serif;
+color: var(--cblack);
+
+}
+
+input[type=checkbox] {
+background-color: none;  }
+
