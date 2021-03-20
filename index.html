@@ -100,7 +100,10 @@
     <script>
         function lineThrough(x){
             let inpt=document.getElementById(x);
-            inpt.setAttribute('style','text-decoration: line-through');
+            if (inpt.hasAttribute('style')){
+                inpt.removeAttribute('style');
+            }else
+                inpt.setAttribute('style','text-decoration: line-through');
         }
     </script>
 </body>

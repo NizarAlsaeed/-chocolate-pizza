@@ -4,7 +4,7 @@
     font-family: 'Balboa';
     src: url(./fonts/FontsFree-Net-Balboa-W01-Bold.ttf);
   }
-  
+
 
   :root{
     --cblack: rgb(49, 47, 47);
@@ -28,6 +28,7 @@ nav{
 }
 nav img{
     padding: 0;
+    
 }
 nav h2{
     font-family: 'Yellowtail', cursive;
@@ -44,6 +45,7 @@ nav p{
 nav ul, nav li{
     display: inline-block;
     list-style: none;
+    padding-left: 0;
 
 }
 
@@ -157,7 +159,4 @@ font-family: 'Truculenta', sans-serif;
 color: var(--cblack);
 
 }
-
-input[type=checkbox] {
-background-color: none;  }
 
